@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin, Linkedin, Github, Send, CheckCircle2, Loader2 } from 'lucide-react';
-import { useState } from 'react';
+import { useState, FormEvent, ChangeEvent } from 'react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -24,7 +24,7 @@ export default function ContactPage() {
     { icon: Github, label: 'GitHub', value: 'Follow on GitHub', href: contactInfo.github },
   ];
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setStatus('loading');
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
     try {
       // Create a form data object to send as URL encoded or JSON depending on script setup
       // Most simple Apps Scripts handle POST with JSON well
-      const response = await fetch(webAppUrl, {
+      await fetch(webAppUrl, {
         method: 'POST',
         mode: 'no-cors', // Important for Apps Script Web Apps
         headers: {
@@ -64,7 +64,7 @@ export default function ContactPage() {
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };

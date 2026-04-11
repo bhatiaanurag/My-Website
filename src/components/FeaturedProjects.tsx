@@ -75,7 +75,6 @@ export default function FeaturedProjects() {
                     src={project.image} 
                     alt={project.title}
                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
-                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <CardHeader className="p-8 pb-4">
