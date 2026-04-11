@@ -64,8 +64,8 @@ export default function Hero() {
               
               <div className="w-full h-full rounded-[3rem] overflow-hidden border border-border/50 shadow-2xl relative group">
                 <img 
-                  src="/profile.jpg" 
-                  alt="Anurag Bhatia"
+                  src="/images/profile.jpg" 
+                  alt="profile"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
