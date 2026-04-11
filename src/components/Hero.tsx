@@ -65,7 +65,7 @@ export default function Hero() {
               
               <div className="w-full h-full rounded-[3rem] overflow-hidden border border-border/50 shadow-2xl relative group">
                 <img 
-                  src="/images/profile.jpg" 
+                  src="/images/profile.png" 
                   alt="profile"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-all duration-700"
                 />
@@ -88,9 +88,7 @@ export default function Hero() {
                     </div>
                   </div>
                   
-                  <div style={{ width: "100%", height: "400px" }}>
-                    <DataChart />
-                  </div>
+                  <DataChart />
                 </div>
               </div>
             </div>

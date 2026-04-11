@@ -10,7 +10,7 @@ const data = [
 
 export default function DataChart() {
   return (
-    <div style={{ width: "100%", height: "400px" }}>
+    <div style={{ width: '100%', height: '400px' }}>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
           <XAxis dataKey="name" />
