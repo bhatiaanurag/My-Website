@@ -129,8 +129,3 @@
     @apply font-sans;
     }
 }
-
-.chart-container {
-  flex: 1;
-  min-height: 300px;
-}
