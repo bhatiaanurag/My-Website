@@ -88,7 +88,7 @@ export default function Hero() {
                     </div>
                   </div>
                   
-                  <div style={{ width: "100%", height: "350px" }}>
+                  <div style={{ width: "100%", height: "400px" }}>
                     <DataChart />
                   </div>
                 </div>
