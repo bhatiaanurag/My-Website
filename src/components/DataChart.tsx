@@ -1,33 +1,28 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 
 const data = [
-  { name: 'Jan', value: 400 },
-  { name: 'Feb', value: 300 },
-  { name: 'Mar', value: 600 },
-  { name: 'Apr', value: 800 },
-  { name: 'May', value: 500 },
+  { name: "Jan", value: 40 },
+  { name: "Feb", value: 30 },
+  { name: "Mar", value: 50 },
+  { name: "Apr", value: 40 },
+  { name: "May", value: 60 }
 ];
 
 export default function DataChart() {
   return (
-    <div style={{ width: "100%", height: "150px" }}>
+    <div style={{ width: "100%", height: "100%" }}>
       <ResponsiveContainer width="100%" height="100%">
-        <BarChart data={data}>
-          <defs>
-            <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="hsl(var(--primary))" stopOpacity={0.8}/>
-              <stop offset="95%" stopColor="hsl(var(--primary))" stopOpacity={0.2}/>
-            </linearGradient>
-          </defs>
-          <Bar 
-            dataKey="value" 
-            radius={[4, 4, 0, 0]}
-            fill="url(#colorValue)"
-          >
-            {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fillOpacity={0.6 + (index * 0.1)} />
-            ))}
-          </Bar>
+        <LineChart data={data}>
+          <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="hsl(var(--border))" opacity={0.5} />
+          <XAxis 
+            dataKey="name" 
+            axisLine={false} 
+            tickLine={false} 
+            tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 10 }}
+          />
+          <YAxis 
+            hide 
+          />
           <Tooltip 
             contentStyle={{ 
               backgroundColor: 'hsl(var(--background))', 
@@ -35,9 +30,16 @@ export default function DataChart() {
               borderRadius: '8px',
               fontSize: '10px'
             }}
-            cursor={{ fill: 'transparent' }}
           />
-        </BarChart>
+          <Line 
+            type="monotone" 
+            dataKey="value" 
+            stroke="#8884d8" 
+            strokeWidth={3}
+            dot={{ r: 4, fill: "#8884d8", strokeWidth: 2, stroke: "hsl(var(--background))" }}
+            activeDot={{ r: 6, strokeWidth: 0 }}
+          />
+        </LineChart>
       </ResponsiveContainer>
     </div>
   );
