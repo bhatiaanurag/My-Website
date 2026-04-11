@@ -88,7 +88,9 @@ export default function Hero() {
                     </div>
                   </div>
                   
-                  <DataChart />
+                  <div className="chart-container">
+                    <DataChart />
+                  </div>
                 </div>
               </div>
             </div>
