@@ -74,6 +74,7 @@ export default function FeaturedProjects() {
                   <img 
                     src={project.image} 
                     alt={project.title}
+                    referrerPolicy="no-referrer"
                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
