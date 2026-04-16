@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                     transition={{ delay: idx * 0.1, duration: 0.5 }}
                   >
                     <Card className="overflow-hidden border-border/40 bg-card/50 backdrop-blur-sm rounded-[2.5rem] hover:border-primary/30 transition-all duration-500 group shadow-lg hover:shadow-2xl">
-                      <div className="aspect-[16/10] overflow-hidden relative">
+                      <Link to={`/project/${project.id}`} className="aspect-[16/10] overflow-hidden relative block">
                         <img 
                           src={project.image} 
                           alt={project.title}
@@ -72,7 +72,7 @@ export default function ProjectsPage() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                           <p className="text-white text-sm font-medium">View Project Details</p>
                         </div>
-                      </div>
+                      </Link>
                       <CardHeader className="p-8 pb-4">
                         <CardTitle className="text-2xl font-bold tracking-tight group-hover:text-primary transition-colors">{project.title}</CardTitle>
                       </CardHeader>
@@ -89,9 +89,12 @@ export default function ProjectsPage() {
                           >
                             <Github className="w-4 h-4" /> GitHub
                           </a>
-                          <Button size="lg" className="flex-1 gap-2 rounded-2xl font-bold text-xs uppercase tracking-widest shadow-lg shadow-primary/20">
+                          <Link 
+                            to={`/project/${project.id}`}
+                            className={cn(buttonVariants({ size: "lg" }), "flex-1 gap-2 rounded-2xl font-bold text-xs uppercase tracking-widest shadow-lg shadow-primary/20")}
+                          >
                             <ExternalLink className="w-4 h-4" /> Case Study
-                          </Button>
+                          </Link>
                         </div>
                       </CardContent>
                     </Card>

@@ -70,14 +70,14 @@ export default function FeaturedProjects() {
               transition={{ delay: idx * 0.1, duration: 0.6 }}
             >
               <Card className="h-full overflow-hidden border-border/40 bg-card/50 backdrop-blur-sm rounded-[2.5rem] hover:border-primary/30 transition-all duration-500 group shadow-lg hover:shadow-2xl flex flex-col">
-                <div className="aspect-[16/10] overflow-hidden relative">
+                <Link to={`/project/${project.id}`} className="aspect-[16/10] overflow-hidden relative block">
                   <img 
                     src={project.image} 
                     alt={project.title}
                     referrerPolicy="no-referrer"
                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                   />
-                </div>
+                </Link>
                 <CardHeader className="p-8 pb-4">
                   <CardTitle className="text-xl font-bold tracking-tight group-hover:text-primary transition-colors">{project.title}</CardTitle>
                 </CardHeader>
@@ -94,9 +94,12 @@ export default function FeaturedProjects() {
                     >
                       <Github className="w-3.5 h-3.5" /> GitHub
                     </a>
-                    <Button size="sm" className="flex-1 gap-2 rounded-xl font-bold text-[10px] uppercase tracking-widest shadow-lg shadow-primary/20">
+                    <Link 
+                      to={`/project/${project.id}`}
+                      className={cn(buttonVariants({ size: "sm" }), "flex-1 gap-2 rounded-xl font-bold text-[10px] uppercase tracking-widest shadow-lg shadow-primary/20")}
+                    >
                       <ExternalLink className="w-3.5 h-3.5" /> Details
-                    </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
