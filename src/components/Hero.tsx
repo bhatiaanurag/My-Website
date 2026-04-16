@@ -18,6 +18,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="text-center lg:text-left"
           >
             <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 text-primary text-[11px] font-bold uppercase tracking-[0.15em] mb-10">
               <span className="relative flex h-2 w-2">
@@ -27,16 +28,16 @@ export default function Hero() {
               Data Analyst Aspirant
             </div>
             
-            <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold tracking-[-0.04em] leading-[0.95] mb-8">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold tracking-[-0.04em] leading-[0.95] mb-8 text-balance">
               Decoding <span className="text-primary">Data</span>.<br />
               Driving <span className="italic font-serif font-light">Decisions</span>.
             </h1>
             
-            <p className="text-base md:text-xl text-muted-foreground mb-10 md:mb-12 max-w-lg leading-relaxed font-medium">
+            <p className="text-base md:text-xl text-muted-foreground mb-10 md:mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed font-medium">
               Hi, I'm <span className="text-foreground font-georgia">Anurag Bhatia</span>. I bridge the gap between complex datasets and strategic business growth through advanced analytics and visualization.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center lg:justify-start">
               <Link 
                 to="/projects" 
                 className={cn(buttonVariants({ size: "lg" }), "gap-2 rounded-full px-8 h-12 sm:h-14 text-sm sm:text-base shadow-xl shadow-primary/20 hover:shadow-2xl hover:shadow-primary/30 transition-all")}

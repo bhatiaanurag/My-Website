@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-6xl font-bold tracking-tight mb-6"
+              className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance"
             >
               Featured <span className="italic font-serif font-light">Projects</span>
             </motion.h2>
