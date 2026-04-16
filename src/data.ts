@@ -43,13 +43,13 @@ export const categorizedProjects = {
     {
       title: "Luxury Car Inventory Analysis",
       description: "Comprehensive analysis of luxury car inventory, tracking sales performance, stock levels, and pricing trends.",
-      image: "/images/luxurycars.png",
+      image: "/public/images/luxurycars.png",
       github: "https://github.com/bhatiaanurag/01-Excel_Project-Luxury_Car_Inventory_Analysis.git"
     },
     {
       title: "Australian Wine Market Review",
       description: "Market review and statistical analysis of the Australian wine industry, focusing on regional production and export trends.",
-      image: "/images/australianwine.png",
+      image: "/public/images/australianwine.png",
       github: "https://github.com/bhatiaanurag/02-Excel_Project-Australian_Wine_Market_Review_Analysis.git"
     },
     {
