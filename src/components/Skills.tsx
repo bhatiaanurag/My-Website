@@ -52,7 +52,7 @@ export default function Skills() {
                 <ShadcnCardTitle className="text-lg sm:text-xl font-bold tracking-tight">Skill Distribution</ShadcnCardTitle>
                 <p className="text-[10px] text-muted-foreground font-mono uppercase tracking-widest mt-1">Core Competencies</p>
               </ShadcnCardHeader>
-              <ShadcnCardContent className="h-[300px] sm:h-[400px] p-0">
+              <ShadcnCardContent className="h-[300px] sm:h-[400px] min-h-[300px] p-0 relative">
                 <ResponsiveContainer width="100%" height="100%">
                   <RadarChart cx="50%" cy="50%" outerRadius="65%" data={radarData}>
                     <PolarGrid stroke="var(--border)" strokeDasharray="4 4" />
