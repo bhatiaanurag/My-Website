@@ -66,6 +66,7 @@ export default function ProjectsPage() {
                         <img 
                           src={project.image} 
                           alt={project.title}
+                          referrerPolicy="no-referrer"
                           className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
