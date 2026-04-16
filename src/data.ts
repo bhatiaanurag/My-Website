@@ -93,7 +93,7 @@ export const categorizedProjects = {
     {
       title: "Retail Database Optimization",
       description: "Optimized complex SQL queries for a retail database, reducing report generation time by 40%.",
-      image: "/images/Retail_Database_Optimization.png",
+      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=800",
       github: "https://github.com/data-analyst-aspirant/sql-retail"
     },
     {
