@@ -43,49 +43,49 @@ export const categorizedProjects = {
     {
       title: "Luxury Car Inventory Analysis",
       description: "Comprehensive analysis of luxury car inventory, tracking sales performance, stock levels, and pricing trends.",
-      image: "https://picsum.photos/seed/luxury-car/800/600",
+      image: "/images/Luxury_Car_Inventory_Analysis.png",
       github: "https://github.com/bhatiaanurag/01-Excel_Project-Luxury_Car_Inventory_Analysis.git"
     },
     {
       title: "Australian Wine Market Review",
       description: "Market review and statistical analysis of the Australian wine industry, focusing on regional production and export trends.",
-      image: "https://picsum.photos/seed/wine/800/600",
+      image: "/images/Australian_Wine_Market_Review.png",
       github: "https://github.com/bhatiaanurag/02-Excel_Project-Australian_Wine_Market_Review_Analysis.git"
     },
     {
       title: "Voter Population Analysis",
       description: "Demographic analysis of voter populations to identify participation patterns and regional voting trends.",
-      image: "https://picsum.photos/seed/voting/800/600",
+      image: "/images/Voter_Population_Analysis.png",
       github: "https://github.com/bhatiaanurag/03-Excel_Project-Voter_Population_Analysis_Project.git"
     },
     {
       title: "Data Analytics & Operations",
       description: "Operational data analysis focusing on process efficiency, resource allocation, and performance optimization.",
-      image: "https://picsum.photos/seed/analytics/800/600",
+      image: "/images/Data_Analysis_Operations.png",
       github: "https://github.com/bhatiaanurag/04-Excel_Project-Data_Analytics_-_Operations.git"
     },
     {
       title: "Corporate Operations & Admin",
       description: "Streamlining corporate administrative tasks and operational workflows through automated Excel reporting.",
-      image: "https://picsum.photos/seed/corporate/800/600",
+      image: "/images/Corporate_Operation_Admin.png",
       github: "https://github.com/bhatiaanurag/05-Excel_Project-Corporate_Operations_-_Administrative.git"
     },
     {
       title: "Data Visualization Project",
       description: "Advanced visualization techniques in Excel to transform complex datasets into intuitive, interactive dashboards.",
-      image: "https://picsum.photos/seed/visualization/800/600",
+      image: "/images/Data_Visualization_Project.png",
       github: "https://github.com/bhatiaanurag/06-Excel_Project-Data_Visulization_Project.git"
     },
     {
       title: "Hotel Revenue & Booking",
       description: "Analysis of hotel booking data and revenue streams to optimize pricing strategies and occupancy rates.",
-      image: "https://picsum.photos/seed/hotel/800/600",
+      image: "/images/Hotel_Revenue_Booking.png",
       github: "https://github.com/bhatiaanurag/07-Excel_Project-Hotel_Revenue_-_Booking_Project.git"
     },
     {
       title: "Retail Performance Overview",
       description: "Holistic overview of retail performance metrics, including sales growth, customer footfall, and inventory turnover.",
-      image: "https://picsum.photos/seed/retail/800/600",
+      image: "/images/Retail_Performance_Overview.png",
       github: "https://github.com/bhatiaanurag/08-Excel_Project-Retail_Performance_Overview.git"
     }
   ],
@@ -93,7 +93,7 @@ export const categorizedProjects = {
     {
       title: "Retail Database Optimization",
       description: "Optimized complex SQL queries for a retail database, reducing report generation time by 40%.",
-      image: "https://picsum.photos/seed/sql1/800/600",
+      image: "/images/Retail_Database_Optimization.png",
       github: "https://github.com/data-analyst-aspirant/sql-retail"
     },
     {
@@ -107,25 +107,25 @@ export const categorizedProjects = {
     {
       title: "Ola Cabs Executive Project",
       description: "Comprehensive executive dashboard for Ola Cabs to track key performance indicators, ride trends, and revenue metrics.",
-      image: "https://picsum.photos/seed/ola/800/600",
+      image: "/images/Ola_Cabs_Executive_Project.png",
       github: "https://github.com/bhatiaanurag/01-Power_Bi-Ola_Cabs_Executive_Project.git"
     },
     {
       title: "Churn Rate Analysis Project",
       description: "Detailed analysis of customer churn patterns using Power BI to identify at-risk segments and improve retention strategies.",
-      image: "https://picsum.photos/seed/churn/800/600",
+      image: "/images/Churn_Rate_Analysis_Project.png",
       github: "https://github.com/bhatiaanurag/02-Power_Bi-Churn_Rate_Analysis_Project.git"
     },
     {
       title: "Blink It Project Overview",
       description: "Operational dashboard for Blinkit providing insights into delivery performance, inventory levels, and customer satisfaction.",
-      image: "https://picsum.photos/seed/blinkit/800/600",
+      image: "/images/Blinkit_project_Overview.png",
       github: "https://github.com/bhatiaanurag/03-Power_Bi-Blinkit_Project_Overview.git"
     },
     {
       title: "Forecaste Actual Report Project",
       description: "Comparison report between forecasted and actual performance metrics to drive data-backed financial planning.",
-      image: "https://picsum.photos/seed/forecast/800/600",
+      image: "/images/Forecaste_Actual_Report_Project.png",
       github: "https://github.com/bhatiaanurag/04-Power_Bi-Forecaste_Actual_Report_Project.git"
     }
   ],
