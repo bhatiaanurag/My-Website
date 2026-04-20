@@ -55,7 +55,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Luxury Car Inventory Analysis",
       description: "Comprehensive analysis of luxury car inventory, tracking sales performance, stock levels, and pricing trends.",
       longDescription: "This project involved creating a robust inventory management system in Excel. I analyzed sales data to identify top-performing models, tracked stock aging to minimize holding costs, and built interactive dashboards for real-time visualization of inventory status and revenue impact.",
-      image: "/images/luxurycars.jpg",
+      image: "/images/excel/luxurycars.jpg",
       github: "https://github.com/bhatiaanurag/01-Excel_Project-Luxury_Car_Inventory_Analysis.git",
       skillsUsed: ["Advanced Excel", "Pivot Tables", "VLOOKUP/XLOOKUP", "Data Cleaning", "Dashboard Design"]
     },
@@ -64,7 +64,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Australian Wine Market Review",
       description: "Market review and statistical analysis of the Australian wine industry, focusing on regional production and export trends.",
       longDescription: "A deep dive into the Australian wine industry's export performance. I analyzed regional production data, identified emerging markets, and visualized year-on-year growth trends. The project highlights the relationship between regional climates and production yields.",
-      image: "/images/australianwine.jpg",
+      image: "/images/excel/australianwine.jpg",
       github: "https://github.com/bhatiaanurag/02-Excel_Project-Australian_Wine_Market_Review_Analysis.git",
       skillsUsed: ["Statistical Analysis", "Data Visualization", "Trend Forecasting", "Excel Charts"]
     },
@@ -73,7 +73,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Voter Population Analysis",
       description: "Demographic analysis of voter populations to identify participation patterns and regional voting trends.",
       longDescription: "This project focused on analyzing voter registration and turnout data across different demographics. I utilized Excel to segment the population by age, location, and previous voting history to uncover significant patterns in civic engagement.",
-      image: "/images/voterpopulation.jpg",
+      image: "/images/excel/voterpopulation.jpg",
       github: "https://github.com/bhatiaanurag/03-Excel_Project-Voter_Population_Analysis_Project.git",
       skillsUsed: ["Demographic Segmentation", "Data Aggregation", "Pivot Charts", "Conditional Formatting"]
     },
@@ -82,7 +82,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Data Analytics & Operations",
       description: "Operational data analysis focusing on process efficiency, resource allocation, and performance optimization.",
       longDescription: "An operational efficiency study aimed at streamlining internal processes. By analyzing workflow data, I identified bottlenecks and proposed resource allocation changes that improved throughput and reduced operational delays.",
-      image: "/images/dataanalysis.jpg",
+      image: "/images/excel/dataanalysis.jpg",
       github: "https://github.com/bhatiaanurag/04-Excel_Project-Data_Analytics_-_Operations.git",
       skillsUsed: ["Process Optimization", "Operational Analytics", "Resource Planning", "Excel Dashboards"]
     },
@@ -91,7 +91,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Corporate Operations & Admin",
       description: "Streamlining corporate administrative tasks and operational workflows through automated Excel reporting.",
       longDescription: "Developed automated reporting tools to handle administrative tracking and corporate operations. This reduced manual data entry work by 30% and improved accurately in monthly operational reports.",
-      image: "/images/corporateoperation.jpg",
+      image: "/images/excel/corporateoperation.jpg",
       github: "https://github.com/bhatiaanurag/05-Excel_Project-Corporate_Operations_-_Administrative.git",
       skillsUsed: ["Process Automation", "Admin Reporting", "Data Entry Optimization", "Excel Formulas"]
     },
@@ -100,7 +100,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Data Visualization Project",
       description: "Advanced visualization techniques in Excel to transform complex datasets into intuitive, interactive dashboards.",
       longDescription: "Explored the boundaries of Excel's visualization capabilities. Created high-impact, interactive dashboards that allow stakeholders to slice and dice multi-dimensional data across various business metrics.",
-      image: "/images/datavisualization.jpg",
+      image: "/images/excel/datavisualization.jpg",
       github: "https://github.com/bhatiaanurag/06-Excel_Project-Data_Visulization_Project.git",
       skillsUsed: ["Advanced Visualization", "Slicers", "Interactive Dashboards", "Dynamic Charts"]
     },
@@ -109,7 +109,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Hotel Revenue & Booking",
       description: "Analysis of hotel booking data and revenue streams to optimize pricing strategies and occupancy rates.",
       longDescription: "Analyzed booking patterns and revenue management for a hotel chain. By identifying peak cancellation periods and high-demand windows, I helped propose dynamic pricing strategies to maximize RevPAR (Revenue Per Available Room).",
-      image: "/images/hotelrevenu.jpg",
+      image: "/images/excel/hotelrevenu.jpg",
       github: "https://github.com/bhatiaanurag/07-Excel_Project-Hotel_Revenue_-_Booking_Project.git",
       skillsUsed: ["Revenue Management", "Forecasting", "Booking Analysis", "Pricing Optimization"]
     },
@@ -118,7 +118,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Retail Performance Overview",
       description: "Holistic overview of retail performance metrics, including sales growth, customer footfall, and inventory turnover.",
       longDescription: "A comprehensive performance tracking project for a retail environment. Analyzed footfall against sales conversion rates and tracked inventory turnover to identify dead stock and high-velocity items.",
-      image: "/images/retailperformance.jpg",
+      image: "/images/excel/retailperformance.jpg",
       github: "https://github.com/bhatiaanurag/08-Excel_Project-Retail_Performance_Overview.git",
       skillsUsed: ["KPI Tracking", "Retail Analytics", "Sales Performance", "Inventory Turnover"]
     }
@@ -185,7 +185,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Ola Cabs Executive Project",
       description: "Comprehensive executive dashboard for Ola Cabs to track key performance indicators, ride trends, and revenue metrics.",
       longDescription: "Developed a high-level executive dashboard in Power BI. Integrated multiple data sources to provide a unified view of ride volume, cancellation rates, driver earnings, and customer sentiment for Ola Cabs.",
-      image: "/images/olacabs.jpg",
+      image: "/images/powerbi/olacabs.jpg",
       github: "https://github.com/bhatiaanurag/01-Power_Bi-Ola_Cabs_Executive_Project.git",
       skillsUsed: ["Power BI", "DAX", "Data Modeling", "Executive Reporting", "KPI Design"]
     },
@@ -194,7 +194,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Churn Rate Analysis Project",
       description: "Detailed analysis of customer churn patterns using Power BI to identify at-risk segments and improve retention strategies.",
       longDescription: "End-to-end churn analysis project. Built predictive visualizations to show customer dropout rates over time and identified the primary drivers behind churn, allowing for targeted retention campaigns.",
-      image: "/images/churnrate.jpg",
+      image: "/images/powerbi/churnrate.jpg",
       github: "https://github.com/bhatiaanurag/02-Power_Bi-Churn_Rate_Analysis_Project.git",
       skillsUsed: ["Churn Modeling", "Predictive Analytics", "Power BI Dashboards", "Customer Segmentation"]
     },
@@ -203,7 +203,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Blink It Project Overview",
       description: "Operational dashboard for Blinkit providing insights into delivery performance, inventory levels, and customer satisfaction.",
       longDescription: "Operational overview of quick-commerce metrics. Tracked delivery times, stock availability, and hub performance to optimize the 'last-mile' delivery experience for Blinkit users.",
-      image: "/images/blinkit.jpg",
+      image: "/images/powerbi/blinkit.jpg",
       github: "https://github.com/bhatiaanurag/03-Power_Bi-Blinkit_Project_Overview.git",
       skillsUsed: ["Logistics Analytics", "Operational Monitoring", "Power Query", "Data Integration"]
     },
@@ -212,7 +212,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Forecast vs Actual Report",
       description: "Comparison report between forecasted and actual performance metrics to drive data-backed financial planning.",
       longDescription: "Financial tracking dashboard comparing budget forecasts against actual spend and revenue. Provided variance analysis visualization that helped management identify budget overruns and revenue shortfalls early.",
-      image: "/images/forecastereport.jpg",
+      image: "/images/powerbi/forecastereport.jpg",
       github: "https://github.com/bhatiaanurag/04-Power_Bi-Forecaste_Actual_Report_Project.git",
       skillsUsed: ["Financial Forecasting", "Variance Analysis", "Data Comparison", "Budget Tracking"]
     }
