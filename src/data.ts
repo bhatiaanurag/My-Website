@@ -156,7 +156,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Ola SQL Project",
       description: "Large-scale analysis of ride-sharing data for Ola Cabs using SQL.",
       longDescription: "Analyzed millions of ride records to track driver performance, ride cancellation reasons, and regional demand patterns. Built optimized queries for executive-level performance monitoring.",
-      image: "/images/sql/olasqlproject.png",
+      image: "public/images/sql/olasqlproject.png",
       github: "https://github.com/bhatiaanurag/SQL_Project-Ola_SQL_Project.git",
       skillsUsed: ["Big Data Analysis", "Ride-Sharing Analytics", "Query Optimization", "Business Intelligence"]
     },
@@ -165,7 +165,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Walmart SQL Project",
       description: "Retail sales analysis and inventory optimization for Walmart stores using SQL.",
       longDescription: "Processed extensive retail datasets to identify sales trends across different product categories. Used SQL to optimize inventory stock levels based on seasonal demand forecasting.",
-      image: "/images/sql/walmartsqlproject.png",
+      image: "public/images/sql/walmartsqlproject.png",
       github: "https://github.com/bhatiaanurag/SQL_Project-Walmart_SQL_Project.git",
       skillsUsed: ["Retail Analytics", "Sales Forecasting", "Inventory Optimization", "Complex Joins"]
     },
@@ -174,7 +174,7 @@ export const categorizedProjects: Record<string, Project[]> = {
       title: "Zomato SQL Project",
       description: "Operational and customer analysis for Zomato's food delivery platform using SQL.",
       longDescription: "Explored customer retention patterns and vendor performance on the Zomato platform. Developed SQL models to track order growth and identify high-value customer segments for marketing campaigns.",
-      image: "/images/sql/zomatosqlproject.png",
+      image: "public/images/sql/zomatosqlproject.png",
       github: "https://github.com/bhatiaanurag/SQL_Projcet-Zomato_SQL_Project.git",
       skillsUsed: ["Customer Segmentation", "Marketing Analytics", "Performance Tracking", "SQL Modeling"]
     }
