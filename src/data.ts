@@ -125,22 +125,58 @@ export const categorizedProjects: Record<string, Project[]> = {
   ],
   sql: [
     {
-      id: "retail-database-optimization",
-      title: "Retail Database Optimization",
-      description: "Optimized complex SQL queries for a retail database, reducing report generation time by 40%.",
-      longDescription: "Focused on database performance tuning. Identified slow-performing queries in a large-scale retail database and applied optimization techniques like indexing, CTE refactoring, and query plan analysis to significantly reduce latency.",
-      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=800",
-      github: "https://github.com/data-analyst-aspirant/sql-retail",
-      skillsUsed: ["SQL Optimization", "Query Tuning", "Indexing", "CTEs", "Performance Profiling"]
+      id: "awesome-chocolate-sql",
+      title: "Awesome Chocolate Project",
+      description: "Comprehensive SQL analysis for a chocolate business, tracking product performance and regional sales.",
+      longDescription: "Calculated total sales, analyzed regional variations in product popularity, and optimized supply chain queries for a chocolate distribution business using advanced SQL joins and aggregations.",
+      image: "/images/sql/awesomechocolate.png",
+      github: "https://github.com/bhatiaanurag/SQL_Project-Awesome_Chocolate_Project.git",
+      skillsUsed: ["PostgreSQL", "Data Aggregation", "Subqueries", "Joins"]
     },
     {
-      id: "employee-performance-sql",
-      title: "Employee Performance Analysis",
-      description: "Using window functions and CTEs to analyze employee performance metrics across multiple departments.",
-      longDescription: "Performed a detailed HR analytics study using complex SQL queries. Utilized window functions like RANK() and NTILE() to compare employee performance against departmental averages and identified top percentile performers.",
-      image: "https://picsum.photos/seed/sql2/800/600",
-      github: "https://github.com/data-analyst-aspirant/sql-hr",
-      skillsUsed: ["Window Functions", "Complex Joins", "Common Table Expressions", "HR Analytics"]
+      id: "faasos-sql-analysis",
+      title: "Faasos SQL Project",
+      description: "In-depth analysis of delivery operations and customer ordering behavior for Faasos.",
+      longDescription: "Analyzed order volume trends, delivery times, and customer preferences for Faasos. Developed complex SQL scripts to identify peak operation hours and optimize delivery logistics.",
+      image: "/images/sql/faasossqlproject.png",
+      github: "https://github.com/bhatiaanurag/SQL_Project-Faasos_SQL_Project.git",
+      skillsUsed: ["SQL Queries", "Operational Analytics", "Customer Behavior", "CTEs"]
+    },
+    {
+      id: "music-store-sql",
+      title: "Music Store Project",
+      description: "Database management and analysis for a digital music store, focusing on inventory and sales.",
+      longDescription: "Managed digital music inventory and sales records. Used SQL to identify top-selling artists, track customer purchase history, and generate monthly revenue reports for store owners.",
+      image: "/images/sql/musicstoreproject.png",
+      github: "https://github.com/bhatiaanurag/SQL_Project-Music_Store_Project.git",
+      skillsUsed: ["Database Management", "Sales Analysis", "Advanced SQL", "Reporting"]
+    },
+    {
+      id: "ola-sql-project",
+      title: "Ola SQL Project",
+      description: "Large-scale analysis of ride-sharing data for Ola Cabs using SQL.",
+      longDescription: "Analyzed millions of ride records to track driver performance, ride cancellation reasons, and regional demand patterns. Built optimized queries for executive-level performance monitoring.",
+      image: "/images/sql/olasqlproject.png",
+      github: "https://github.com/bhatiaanurag/SQL_Project-Ola_SQL_Project.git",
+      skillsUsed: ["Big Data Analysis", "Ride-Sharing Analytics", "Query Optimization", "Business Intelligence"]
+    },
+    {
+      id: "walmart-sql-project",
+      title: "Walmart SQL Project",
+      description: "Retail sales analysis and inventory optimization for Walmart stores using SQL.",
+      longDescription: "Processed extensive retail datasets to identify sales trends across different product categories. Used SQL to optimize inventory stock levels based on seasonal demand forecasting.",
+      image: "/images/sql/walmartsqlproject.png",
+      github: "https://github.com/bhatiaanurag/SQL_Project-Walmart_SQL_Project.git",
+      skillsUsed: ["Retail Analytics", "Sales Forecasting", "Inventory Optimization", "Complex Joins"]
+    },
+    {
+      id: "zomato-sql-analysis",
+      title: "Zomato SQL Project",
+      description: "Operational and customer analysis for Zomato's food delivery platform using SQL.",
+      longDescription: "Explored customer retention patterns and vendor performance on the Zomato platform. Developed SQL models to track order growth and identify high-value customer segments for marketing campaigns.",
+      image: "/images/sql/zomatosqlproject.png",
+      github: "https://github.com/bhatiaanurag/SQL_Projcet-Zomato_SQL_Project.git",
+      skillsUsed: ["Customer Segmentation", "Marketing Analytics", "Performance Tracking", "SQL Modeling"]
     }
   ],
   powerbi: [
