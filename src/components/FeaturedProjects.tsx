@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
 export default function FeaturedProjects() {
-  // Take top 3 projects from different categories
+  // Take top 3 projects from EDA category
   const featured = [
-    categorizedProjects.powerbi[0],
-    categorizedProjects.excel[0],
-    categorizedProjects.sql[0],
+    categorizedProjects.eda[0],
+    categorizedProjects.eda[1],
+    categorizedProjects.eda[2],
   ].filter(Boolean);
 
   return (

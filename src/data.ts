@@ -219,22 +219,40 @@ export const categorizedProjects: Record<string, Project[]> = {
   ],
   eda: [
     {
-      id: "netflix-content-eda",
-      title: "Exploratory Analysis of Netflix Content",
-      description: "In-depth EDA of Netflix's library using Python to identify content trends and regional preferences.",
-      longDescription: "Comprehensive data exploration of the Netflix dataset. Analyzed content growth, favorite genres by country, and the shift from movies to TV shows using Python libraries like Pandas, Matplotlib, and Seaborn.",
-      image: "https://picsum.photos/seed/eda1/800/600",
-      github: "https://github.com/data-analyst-aspirant/eda-netflix",
-      skillsUsed: ["Python", "Pandas", "Matplotlib", "EDA", "Content Analytics"]
+      id: "udemy-course-analysis",
+      title: "Udemy Course Analysis",
+      description: "Extensive exploratory data analysis of Udemy courses to identify pricing trends and student enrollment patterns.",
+      longDescription: "This project explores the Udemy dataset to understand what makes a course successful. I analyzed the distribution of subjects, identified the relationship between price and enrollment, and visualized the impact of course levels on student ratings using Python's visualization libraries.",
+      image: "/images/eda/udemycourseanalysis.jpg",
+      github: "https://github.com/bhatiaanurag/EDA_Project-Udemy_Courses_Analysis.git",
+      skillsUsed: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Data Cleaning"]
     },
     {
-      id: "climate-change-eda",
-      title: "Climate Change Impact Study",
-      description: "Statistical analysis and visualization of global temperature changes over the last century using Pandas and Seaborn.",
-      longDescription: "Scientific data analysis project focused on climate metrics. Analyzed historical temperature anomalies and visualized the accelerating warming trend observed over the past few decades.",
-      image: "https://picsum.photos/seed/eda2/800/600",
-      github: "https://github.com/data-analyst-aspirant/eda-climate",
-      skillsUsed: ["Scientific Computing", "Seaborn", "Time Series Analysis", "Statistical Visualization"]
+      id: "google-play-store-eda",
+      title: "Google Play Store Analysis",
+      description: "Data-driven insights into the Google Play Store app ecosystem, focusing on category performance and user ratings.",
+      longDescription: "A comprehensive EDA of millions of app records. I investigated which app categories dominate the market, how reviews correlate with app sizing, and the overall sentiment of user feedback across different genres.",
+      image: "/images/eda/googleplaystoreanalysis.jpg",
+      github: "https://github.com/bhatiaanurag/EDA_Project-Google_Play_Store.git",
+      skillsUsed: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Statistical Analysis"]
+    },
+    {
+      id: "loan-landing-club",
+      title: "Loan Landing Club Analysis",
+      description: "Statistical analysis of loan data to identify risk factors and borrower demographic shifts.",
+      longDescription: "Analyzed historical loan data from Landing Club. This project identifies key indicators of loan defaults, explores the relationship between interest rates and credit scores, and visualizes the geographic distribution of loan applications.",
+      image: "/images/eda/loanlandinganalysis.jpg",
+      github: "https://github.com/bhatiaanurag/EDA_Project-Loan_Landing_Club.git",
+      skillsUsed: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Risk Assessment", "Financial Analytics"]
+    },
+    {
+      id: "netflix-eda-detailed",
+      title: "Netflix EDA Project",
+      description: "In-depth exploration of Netflix content library trends, focusing on year-over-year growth and genre popularity.",
+      longDescription: "Updated and expanded EDA of the Netflix library. This version focuses on content availability by region, the growth of international productions, and deep dives into specific genre trends using advanced Python plotting techniques.",
+      image: "/images/eda/netflixanalysis.jpg",
+      github: "https://github.com/bhatiaanurag/EDA_Project-Netflix_EDA_Project.git",
+      skillsUsed: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Time Series", "Content Trends"]
     }
   ]
 };
@@ -258,7 +276,7 @@ export const contactInfo = {
   email: "bhatiaanurag20@gmail.com",
   phone: "+91 91068 67974",
   location: "Surat, Gujarat, India",
-  linkedin: socialLinks.linkedin,
-  github: socialLinks.github,
-  resume: "https://drive.google.com/file/d/1bc8hCaG-CAw0u2NFFPqWTS2ipEl6u25F/view?usp=drive_link"
+  linkedin: "https://www.linkedin.com/in/anuragbhatia05/",
+  github: "https://github.com/bhatiaanurag",
+  resume: "https://drive.google.com/file/d/1hHlt67w6BmkCurkqMGNp6yqddd8XxAAX/view?usp=sharing"
 };
