@@ -278,5 +278,5 @@ export const contactInfo = {
   location: "Surat, Gujarat, India",
   linkedin: "https://www.linkedin.com/in/anuragbhatia05/",
   github: "https://github.com/bhatiaanurag",
-  resume: "https://drive.google.com/file/d/1hHlt67w6BmkCurkqMGNp6yqddd8XxAAX/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1OYpob10h4mljdtpLXr0jv5zqZv2m2VKt/view?usp=sharing"
 };
